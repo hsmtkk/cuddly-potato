@@ -1,3 +1,6 @@
+mod hello;
+
 fn main() {
-    println!("Hello, world!");
+    let msg = hello::get_message();
+    println!("{}", msg);
 }
